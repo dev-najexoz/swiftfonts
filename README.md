@@ -21,3 +21,17 @@ You can include **SwiftFonts** in your project by linking to the `swiftfonts.css
 
 ```html
 <link rel="stylesheet" href="dev-najexoz.github.io/swiftfonts/swiftfonts.css">
+```
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## How to Contribute:
+- Fork the repository.
+- Create a new branch (git checkout -b feature-name).
+- Make your changes.
+- Commit your changes (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-name).
+- Create a new Pull Request.
+- License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
