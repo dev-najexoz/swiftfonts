@@ -1,0 +1,92 @@
+/******************************************/
+/*          SWIFT FONTS LIBRARY            */
+/*   A CSS Utility for easy font usage    */
+/*            By: SwiftStyle              */
+/******************************************/
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600&family=Ubuntu:wght@300;400;500&family=Raleway:wght@300;400;600&family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* System Fonts (fallback options) */
+:root {
+  --font-arial: 'Arial', sans-serif;
+  --font-helvetica: 'Helvetica', sans-serif;
+  --font-times: 'Times New Roman', serif;
+  --font-courier: 'Courier New', monospace;
+  --font-georgia: 'Georgia', serif;
+  --font-tahoma: 'Tahoma', sans-serif;
+  --font-veranda: 'Verdana', sans-serif;
+  --font-sans-serif: 'Sans-serif';
+}
+
+/* Font Classes */
+.font-poppins { font-family: 'Poppins', sans-serif; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+.font-open-sans { font-family: 'Open Sans', sans-serif; }
+.font-lato { font-family: 'Lato', sans-serif; }
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-ubuntu { font-family: 'Ubuntu', sans-serif; }
+.font-raleway { font-family: 'Raleway', sans-serif; }
+.font-playfair-display { font-family: 'Playfair Display', serif; }
+.font-source-sans-pro { font-family: 'Source Sans Pro', sans-serif; }
+
+/* System Fonts */
+.font-arial { font-family: var(--font-arial); }
+.font-helvetica { font-family: var(--font-helvetica); }
+.font-times { font-family: var(--font-times); }
+.font-courier { font-family: var(--font-courier); }
+.font-georgia { font-family: var(--font-georgia); }
+.font-tahoma { font-family: var(--font-tahoma); }
+.font-veranda { font-family: var(--font-veranda); }
+
+/* Fallback Fonts */
+.font-sans-serif { font-family: var(--font-sans-serif); }
+.font-serif { font-family: 'Times New Roman', serif; }
+.font-monospace { font-family: 'Courier New', monospace; }
+
+/* Additional Font Weights (For Poppins, Roboto, Lato, etc.) */
+.font-poppins-light { font-family: 'Poppins', sans-serif; font-weight: 300; }
+.font-poppins-regular { font-family: 'Poppins', sans-serif; font-weight: 400; }
+.font-poppins-medium { font-family: 'Poppins', sans-serif; font-weight: 500; }
+.font-poppins-bold { font-family: 'Poppins', sans-serif; font-weight: 700; }
+
+.font-roboto-light { font-family: 'Roboto', sans-serif; font-weight: 300; }
+.font-roboto-regular { font-family: 'Roboto', sans-serif; font-weight: 400; }
+.font-roboto-medium { font-family: 'Roboto', sans-serif; font-weight: 500; }
+.font-roboto-bold { font-family: 'Roboto', sans-serif; font-weight: 700; }
+
+.font-lato-light { font-family: 'Lato', sans-serif; font-weight: 300; }
+.font-lato-regular { font-family: 'Lato', sans-serif; font-weight: 400; }
+.font-lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
+
+/* Add more fonts as needed... */
+
+/****************************************/
+/* EXAMPLES OF HOW TO USE THIS FONT LIBRARY */
+/****************************************/
+
+/* Example 1: Using Poppins */
+h1.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+p.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Example 2: Using System Fonts */
+h1.arial {
+  font-family: 'Arial', sans-serif;
+}
+
+h2.helvetica {
+  font-family: 'Helvetica', sans-serif;
+}
+
+p.georgia {
+  font-family: 'Georgia', serif;
+}
