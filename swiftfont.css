@@ -15,7 +15,7 @@
   --font-courier: 'Courier New', monospace;
   --font-georgia: 'Georgia', serif;
   --font-tahoma: 'Tahoma', sans-serif;
-  --font-veranda: 'Verdana', sans-serif;
+  --font-verdana: 'Verdana', sans-serif;
   --font-sans-serif: 'Sans-serif';
 }
 
@@ -27,7 +27,7 @@
 .font-montserrat { font-family: 'Montserrat', sans-serif; }
 .font-ubuntu { font-family: 'Ubuntu', sans-serif; }
 .font-raleway { font-family: 'Raleway', sans-serif; }
-.font-playfair-display { font-family: 'Playfair Display', serif; }
+.font-playfair { font-family: 'Playfair Display', serif; }
 .font-source-sans-pro { font-family: 'Source Sans Pro', sans-serif; }
 
 /* System Fonts */
@@ -37,7 +37,7 @@
 .font-courier { font-family: var(--font-courier); }
 .font-georgia { font-family: var(--font-georgia); }
 .font-tahoma { font-family: var(--font-tahoma); }
-.font-veranda { font-family: var(--font-veranda); }
+.font-verdana { font-family: var(--font-veranda); }
 
 /* Fallback Fonts */
 .font-sans-serif { font-family: var(--font-sans-serif); }
@@ -59,34 +59,3 @@
 .font-lato-regular { font-family: 'Lato', sans-serif; font-weight: 400; }
 .font-lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
 
-/* Add more fonts as needed... */
-
-/****************************************/
-/* EXAMPLES OF HOW TO USE THIS FONT LIBRARY */
-/****************************************/
-
-/* Example 1: Using Poppins */
-h1.poppins {
-  font-family: 'Poppins', sans-serif;
-}
-
-h2.roboto {
-  font-family: 'Roboto', sans-serif;
-}
-
-p.open-sans {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* Example 2: Using System Fonts */
-h1.arial {
-  font-family: 'Arial', sans-serif;
-}
-
-h2.helvetica {
-  font-family: 'Helvetica', sans-serif;
-}
-
-p.georgia {
-  font-family: 'Georgia', serif;
-}
